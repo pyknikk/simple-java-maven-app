@@ -21,14 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Complete') {
+        stage('NewRepoYo') {
             steps {
-                echo 'Job Complete!'
-            }
-        }
-        stage('YoThisStillWorks') {
-            steps {
-                echo 'YoThisStillWorks!'
+                echo 'NewRepoYo!'
             }
         }
     }

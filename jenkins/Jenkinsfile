@@ -26,9 +26,9 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
-        stage('Complete finissimo') {
+        stage('YoThisStillWorks') {
             steps {
-                echo 'Job Complete Super Fine!'
+                echo 'YoThisStillWorks!'
             }
         }
     }
